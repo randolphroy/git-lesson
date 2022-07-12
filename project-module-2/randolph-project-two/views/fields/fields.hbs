@@ -1,0 +1,15 @@
+<h1>Soccer Fields</h1>
+    <div class="text-right">
+        <button type="button" href="/views/fields/create.hbs" class="btn btn-primary btn-sm btn btn-light btn-outline-secondary">Add a new soccer field!</button>
+    </div>
+
+ {{!-- <div class="text-right">
+	   <button type="button" class="btn btn-primary">Add a new soccer field!</button>
+	</div> --}}
+{{#each allFields}}
+<h3>{{fieldname}}</h3>
+<p>{{address}}</p>
+<p>{{hours}}</p>
+<p>{{contact}}</p>
+</div>
+{{/each}}

@@ -1,0 +1,21 @@
+<div id="form">
+  <h2>Create new field</h2>
+  <form action="/fields" method="POST">
+
+    <label> Field Name
+      <input type="text" name="fieldname" placeholder="Field Name" />
+    </label>
+
+    <label> Address
+      <input type="text" name="address" placeholder="123 Anywhere ave, City, State, Zip Code" />
+    </label>
+
+    <label> Hours of operation
+      <input type="text" name="hours" placeholder="12:00am to 12:00pm" />
+    </label>
+
+    <button type="submit">Submit new field</button>
+
+    {{!-- error message will be added here --}}
+  </form>
+</div>
